@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+   - name: transfer_nextstrain
+     subclass: WDL
+     primaryDescriptorPath: transfer_nextstrain/transfer_nextstrain.wdl
